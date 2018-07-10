@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.3">
+<eagle version="8.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6706,11 +6706,6 @@ DIN A3, landscape with location and doc. field</description>
 <label x="127" y="208.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="2"/>
-<wire x1="213.36" y1="116.84" x2="200.66" y2="116.84" width="0.1524" layer="91"/>
-<label x="200.66" y="116.84" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP2" gate="A" pin="2"/>
 <wire x1="213.36" y1="96.52" x2="200.66" y2="96.52" width="0.1524" layer="91"/>
 <label x="200.66" y="96.52" size="1.778" layer="95"/>
@@ -6772,11 +6767,6 @@ DIN A3, landscape with location and doc. field</description>
 <label x="127" y="200.66" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="3"/>
-<wire x1="213.36" y1="114.3" x2="200.66" y2="114.3" width="0.1524" layer="91"/>
-<label x="200.66" y="114.3" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP2" gate="A" pin="3"/>
 <wire x1="213.36" y1="93.98" x2="200.66" y2="93.98" width="0.1524" layer="91"/>
 <label x="200.66" y="93.98" size="1.778" layer="95"/>
@@ -6793,6 +6783,11 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="60.96" y1="215.9" x2="53.34" y2="215.9" width="0.1524" layer="91"/>
 <label x="53.34" y="215.9" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JP1" gate="A" pin="2"/>
+<wire x1="213.36" y1="116.84" x2="200.66" y2="116.84" width="0.1524" layer="91"/>
+<label x="200.66" y="116.84" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="INB" class="0">
 <segment>
@@ -6804,6 +6799,11 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="200.66" x2="53.34" y2="200.66" width="0.1524" layer="91"/>
 <label x="53.34" y="200.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="A" pin="3"/>
+<wire x1="213.36" y1="114.3" x2="200.66" y2="114.3" width="0.1524" layer="91"/>
+<label x="200.66" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="C" class="0">
@@ -6833,11 +6833,6 @@ DIN A3, landscape with location and doc. field</description>
 <label x="127" y="193.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="A" pin="4"/>
-<wire x1="213.36" y1="111.76" x2="200.66" y2="111.76" width="0.1524" layer="91"/>
-<label x="200.66" y="111.76" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP2" gate="A" pin="4"/>
 <wire x1="213.36" y1="91.44" x2="200.66" y2="91.44" width="0.1524" layer="91"/>
 <label x="200.66" y="91.44" size="1.778" layer="95"/>
@@ -6855,13 +6850,6 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="Q3" gate="G$1" pin="S"/>
 <pinref part="Q12" gate="G$1" pin="D"/>
 <wire x1="83.82" y1="71.12" x2="83.82" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="COUT" class="0">
-<segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="177.8" x2="81.28" y2="177.8" width="0.1524" layer="91"/>
-<label x="76.2" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -6895,6 +6883,18 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="JP2" gate="A" pin="1"/>
 <wire x1="213.36" y1="99.06" x2="200.66" y2="99.06" width="0.1524" layer="91"/>
 <label x="200.66" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="OUTC" class="0">
+<segment>
+<pinref part="JP1" gate="A" pin="4"/>
+<wire x1="213.36" y1="111.76" x2="200.66" y2="111.76" width="0.1524" layer="91"/>
+<label x="200.66" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="71.12" y1="177.8" x2="81.28" y2="177.8" width="0.1524" layer="91"/>
+<label x="76.2" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
