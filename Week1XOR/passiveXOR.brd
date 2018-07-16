@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.3">
+<eagle version="8.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1382,10 +1382,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="0.25mm"/>
 <param name="dpGapFactor" value="2.5"/>
+<param name="checkGrid" value="0"/>
 <param name="checkAngle" value="1"/>
 <param name="checkFont" value="1"/>
 <param name="checkRestrict" value="1"/>
-<param name="checkStop" value="1"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -1716,7 +1716,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2.7064" y1="12.46" x2="2.7432" y2="12.4968" width="0.1524" layer="1"/>
 <wire x1="6.8452" y1="12.4968" x2="7.15" y2="12.192" width="0.1524" layer="1"/>
 <wire x1="2.7432" y1="12.4968" x2="6.8452" y2="12.4968" width="0.1524" layer="1"/>
-<wire x1="7.15" y1="12" x2="40" y2="12.46" width="0" layer="19" extent="1-1"/>
+<wire x1="40" y1="12.46" x2="40" y2="11.9584" width="0.1524" layer="16"/>
+<wire x1="40" y1="11.9584" x2="38.4048" y2="10.3632" width="0.1524" layer="16"/>
+<wire x1="38.4048" y1="10.3632" x2="38.4048" y2="8.8392" width="0.1524" layer="16"/>
+<wire x1="30.6832" y1="1.1176" x2="5.4864" y2="1.1176" width="0.1524" layer="16"/>
+<wire x1="5.4864" y1="1.1176" x2="4.6736" y2="1.9304" width="0.1524" layer="16"/>
+<wire x1="4.6736" y1="1.9304" x2="4.663975" y2="1.9304" width="0.1524" layer="16"/>
+<wire x1="4.663975" y1="1.9304" x2="3.7052" y2="2.889175" width="0.1524" layer="16"/>
+<wire x1="3.7052" y1="2.889175" x2="3.7052" y2="9.135690625" width="0.1524" layer="16"/>
+<wire x1="3.7052" y1="9.135690625" x2="3.72454375" y2="9.1628625" width="0.1524" layer="16"/>
+<wire x1="3.72454375" y1="9.1628625" x2="3.7052" y2="9.27779375" width="0.1524" layer="16"/>
+<wire x1="3.7052" y1="9.27779375" x2="3.7052" y2="10.7548" width="0.1524" layer="16"/>
+<wire x1="3.7052" y1="10.7548" x2="2" y2="12.46" width="0.1524" layer="16"/>
+<wire x1="38.4048" y1="8.8392" x2="30.6832" y2="1.1176" width="0.1524" layer="16"/>
 </signal>
 <signal name="INB">
 <contactref element="R3" pad="1"/>
