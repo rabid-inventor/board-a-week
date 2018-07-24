@@ -7,11 +7,14 @@ Attempting to design a pcb to demonstarate an XOR using Discreet silicon and pas
 REV1 Design Completed 17/07/18
 
 
-Week 2: MINIATTY
+Week 2: TINYMCU
 
-A Breakout for the Atmel/Microchip AtTiny 4/5/9/10 alos suitabe for Microchip PIC10F320/322
-REV1 
+A Breakout for the Atmel/Microchip AtTiny 4/5/9/10 also suitabe for Microchip PIC10F320/322
+REV1 Design Complete 17/07/18
 
+Week 3: INTOKICAD
+
+First design using KiCAD Wish me luck.
 
 License / Warranty
 
