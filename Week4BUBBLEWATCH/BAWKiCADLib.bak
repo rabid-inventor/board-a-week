@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# RedRetroBubbleDisplay
+#
+DEF RedRetroBubbleDisplay U 0 40 Y Y 1 F N
+F0 "U" 750 1100 60 H V C CNN
+F1 "RedRetroBubbleDisplay" 750 1100 60 H V C CNN
+F2 "" 750 1100 60 H I C CNN
+F3 "" 750 1100 60 H I C CNN
+DRAW
+S -350 300 350 -350 0 1 0 N
+X COM1 1 -550 200 200 R 50 50 1 1 O
+X COM3 4 -550 -100 200 R 50 50 1 1 O
+X COM4 6 -550 -250 200 R 50 50 1 1 O
+X COM2 10 -550 50 200 R 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library
