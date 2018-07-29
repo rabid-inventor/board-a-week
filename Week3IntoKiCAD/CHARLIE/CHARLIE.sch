@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:CHARLIE-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -241,4 +242,107 @@ Text Label 5750 2550 0    50   ~ 0
 IO1
 Text Label 5750 2950 0    50   ~ 0
 IO4
+$Comp
+L Device:R R1
+U 1 1 5B5E404A
+P 2800 4050
+F 0 "R1" V 2593 4050 50  0000 C CNN
+F 1 "R" V 2684 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2730 4050 50  0001 C CNN
+F 3 "~" H 2800 4050 50  0001 C CNN
+	1    2800 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5B5E4234
+P 2800 4400
+F 0 "R2" V 2593 4400 50  0000 C CNN
+F 1 "R" V 2684 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2730 4400 50  0001 C CNN
+F 3 "~" H 2800 4400 50  0001 C CNN
+	1    2800 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5B5E427E
+P 2800 4750
+F 0 "R3" V 2593 4750 50  0000 C CNN
+F 1 "R" V 2684 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2730 4750 50  0001 C CNN
+F 3 "~" H 2800 4750 50  0001 C CNN
+	1    2800 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5B5E42BE
+P 2800 5100
+F 0 "R4" V 2593 5100 50  0000 C CNN
+F 1 "R" V 2684 5100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2730 5100 50  0001 C CNN
+F 3 "~" H 2800 5100 50  0001 C CNN
+	1    2800 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2650 4050 2300 4050
+Wire Wire Line
+	2650 4400 2300 4400
+Wire Wire Line
+	2650 4750 2300 4750
+Wire Wire Line
+	2650 5100 2300 5100
+Wire Wire Line
+	2950 4050 3300 4050
+Wire Wire Line
+	2950 4400 3300 4400
+Wire Wire Line
+	2950 4750 3300 4750
+Wire Wire Line
+	2950 5100 3300 5100
+Text Label 2300 4050 0    50   ~ 0
+IO1
+Text Label 2300 4400 0    50   ~ 0
+IO2
+Text Label 2300 4750 0    50   ~ 0
+IO3
+Text Label 2300 5100 0    50   ~ 0
+IO4
+Text Label 3300 4050 2    50   ~ 0
+PINCON1
+Text Label 3300 4400 2    50   ~ 0
+PINCON2
+Text Label 3300 4750 2    50   ~ 0
+PINCON3
+Text Label 3300 5100 2    50   ~ 0
+PINCON4
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 5B5E78BA
+P 4350 4150
+F 0 "J1" H 4250 4150 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 4600 3850 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4350 4150 50  0001 C CNN
+F 3 "~" H 4350 4150 50  0001 C CNN
+	1    4350 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4050 4900 4050
+Wire Wire Line
+	4550 4150 4900 4150
+Wire Wire Line
+	4550 4250 4900 4250
+Wire Wire Line
+	4550 4350 4900 4350
+Text Label 4900 4050 2    50   ~ 0
+PINCON1
+Text Label 4900 4150 2    50   ~ 0
+PINCON2
+Text Label 4900 4250 2    50   ~ 0
+PINCON3
+Text Label 4900 4350 2    50   ~ 0
+PINCON4
 $EndSCHEMATC
