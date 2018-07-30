@@ -31,6 +31,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:IntoKiCAD-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -131,4 +132,63 @@ Text Label 3100 1950 0    60   ~ 0
 DisRegSelect
 Text Label 9350 2650 0    60   ~ 0
 DisRegSelect
+$Comp
+L Conn_02x03_Odd_Even J?
+U 1 1 5B5B4215
+P 2850 4450
+F 0 "J?" H 2900 4650 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 2900 4250 50  0000 C CNN
+F 2 "" H 2850 4450 50  0001 C CNN
+F 3 "" H 2850 4450 50  0001 C CNN
+	1    2850 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 4350 3550 4350
+Wire Wire Line
+	3150 4450 3550 4450
+Wire Wire Line
+	3150 4550 3550 4550
+Wire Wire Line
+	2650 4350 2350 4350
+Wire Wire Line
+	2650 4450 2350 4450
+Wire Wire Line
+	2650 4550 2350 4550
+Wire Wire Line
+	7150 1200 7150 950 
+$Comp
+L +5V #PWR?
+U 1 1 5B5B43F4
+P 7150 950
+F 0 "#PWR?" H 7150 800 50  0001 C CNN
+F 1 "+5V" H 7150 1090 50  0000 C CNN
+F 2 "" H 7150 950 50  0001 C CNN
+F 3 "" H 7150 950 50  0001 C CNN
+	1    7150 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 4600 7450 4750
+Wire Wire Line
+	7450 4750 7750 4750
+Wire Wire Line
+	7550 4600 7550 4900
+Wire Wire Line
+	7650 4750 7650 4600
+Wire Wire Line
+	7750 4750 7750 4600
+Connection ~ 7550 4750
+Connection ~ 7650 4750
+$Comp
+L GND #PWR?
+U 1 1 5B5B451A
+P 7550 4900
+F 0 "#PWR?" H 7550 4650 50  0001 C CNN
+F 1 "GND" H 7550 4750 50  0000 C CNN
+F 2 "" H 7550 4900 50  0001 C CNN
+F 3 "" H 7550 4900 50  0001 C CNN
+	1    7550 4900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
