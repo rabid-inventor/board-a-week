@@ -59,7 +59,7 @@
      showgrid="false"
      inkscape:zoom="3.1141458"
      inkscape:cx="1027.5103"
-     inkscape:cy="1117.1453"
+     inkscape:cy="1099.4333"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -644,7 +644,9 @@
      cx="1062.8917"
      cy="521.3736"
      rx="126.51945"
-     ry="120.73936" /><g
+     ry="120.73936"
+     inkscape:export-xdpi="800"
+     inkscape:export-ydpi="800" /><g
      id="g2315"
      transform="matrix(0.6642233,0,0,0.6642226,575.35185,1008.249)"
      style="fill:#ffffe3;fill-opacity:1;stroke-width:1.50551867"
