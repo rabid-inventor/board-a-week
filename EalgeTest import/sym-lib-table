@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name passiveXOR-eagle-import)(type Legacy)(uri ${KIPRJMOD}/passiveXOR-eagle-import.lib)(options "")(descr ""))
+)

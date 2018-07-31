@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name passiveXOR)(type KiCad)(uri "$(KIPRJMOD)/passiveXOR.pretty")(options "")(descr ""))
+)

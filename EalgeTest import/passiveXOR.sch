@@ -1,0 +1,703 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr User 16886 10718
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	11200 1500 10900 1500
+Wire Wire Line
+	10900 1500 10900 1900
+Wire Wire Line
+	10900 1900 10900 2300
+Wire Wire Line
+	10900 2300 11200 2300
+Wire Wire Line
+	10900 1900 10300 1900
+Connection ~ 10900 1900
+Text Label 10300 1900 0    70   ~ 0
+NOT1A
+Wire Wire Line
+	3800 1400 4200 1400
+Text Label 4000 1400 0    70   ~ 0
+NOT1A
+Wire Wire Line
+	11500 1700 11500 1900
+Wire Wire Line
+	11500 1900 11500 2100
+Wire Wire Line
+	11500 1900 12100 1900
+Connection ~ 11500 1900
+Text Label 12000 1900 0    70   ~ 0
+NOT1C
+Wire Wire Line
+	3400 2300 3100 2300
+Text Label 3100 2300 0    70   ~ 0
+NOT1C
+Wire Wire Line
+	11500 2500 11500 2800
+Text Label 11500 2500 0    10   ~ 0
+GND
+Wire Wire Line
+	13800 2500 13800 2800
+Text Label 13800 2500 0    10   ~ 0
+GND
+Wire Wire Line
+	2900 7800 2900 8000
+Wire Wire Line
+	2900 8000 3600 8000
+Wire Wire Line
+	3600 8000 4300 8000
+Wire Wire Line
+	4300 8000 4300 7800
+Wire Wire Line
+	3600 8000 3600 8300
+Connection ~ 3600 8000
+Text Label 2900 7800 0    10   ~ 0
+GND
+Wire Wire Line
+	7500 1500 7900 1500
+Wire Wire Line
+	7900 1500 7900 1900
+Wire Wire Line
+	7900 1900 7900 2300
+Wire Wire Line
+	7900 2300 7900 2900
+Wire Wire Line
+	7500 1900 7900 1900
+Wire Wire Line
+	7500 2300 7900 2300
+Connection ~ 7900 1900
+Connection ~ 7900 2300
+Text Label 7500 1500 0    10   ~ 0
+GND
+Wire Wire Line
+	9400 5600 8900 5600
+Text Label 8900 5600 0    70   ~ 0
+GND
+Wire Wire Line
+	9400 6400 8900 6400
+Text Label 8900 6400 0    70   ~ 0
+GND
+Wire Wire Line
+	11500 900  11500 1300
+Text Label 11500 900  0    10   ~ 0
+VDD
+Wire Wire Line
+	13800 900  13800 1300
+Text Label 13800 900  0    10   ~ 0
+VDD
+Wire Wire Line
+	2900 5000 2900 4800
+Wire Wire Line
+	2900 4800 3600 4800
+Wire Wire Line
+	3600 4800 4300 4800
+Wire Wire Line
+	4300 4800 4300 5000
+Wire Wire Line
+	3600 4800 3600 4300
+Connection ~ 3600 4800
+Text Label 2900 5000 0    10   ~ 0
+VDD
+Wire Wire Line
+	9400 5200 8900 5200
+Text Label 8900 5200 0    70   ~ 0
+VDD
+Wire Wire Line
+	9400 6000 8900 6000
+Text Label 8900 6000 0    70   ~ 0
+VDD
+Wire Wire Line
+	13500 1500 13200 1500
+Wire Wire Line
+	13200 1500 13200 1900
+Wire Wire Line
+	13200 1900 13200 2300
+Wire Wire Line
+	13200 2300 13500 2300
+Wire Wire Line
+	13200 1900 12600 1900
+Connection ~ 13200 1900
+Text Label 12600 1900 0    70   ~ 0
+NOT2A
+Wire Wire Line
+	3800 2000 4200 2000
+Text Label 4000 2000 0    70   ~ 0
+NOT2A
+Wire Wire Line
+	13800 1700 13800 1900
+Wire Wire Line
+	13800 1900 13800 2100
+Wire Wire Line
+	13800 1900 14400 1900
+Connection ~ 13800 1900
+Text Label 14300 1900 0    70   ~ 0
+NOT2C
+Wire Wire Line
+	3400 2600 3100 2600
+Text Label 3100 2600 0    70   ~ 0
+NOT2C
+Wire Wire Line
+	2900 5700 2900 5400
+Wire Wire Line
+	4300 5400 4300 5700
+Wire Wire Line
+	2600 5200 2200 5200
+Text Label 2200 5200 0    70   ~ 0
+A
+Wire Wire Line
+	2600 6900 2200 6900
+Text Label 2200 6900 0    70   ~ 0
+A
+Wire Wire Line
+	3800 1100 4200 1100
+Text Label 4000 1100 0    70   ~ 0
+A
+Wire Wire Line
+	6500 1500 6000 1500
+Text Label 6000 1500 0    70   ~ 0
+A
+Wire Wire Line
+	2600 5900 2200 5900
+Text Label 2200 5900 0    70   ~ 0
+NB
+Wire Wire Line
+	4600 7600 5200 7600
+Text Label 5000 7600 0    70   ~ 0
+NB
+Wire Wire Line
+	3800 2600 4200 2600
+Text Label 4000 2600 0    70   ~ 0
+NB
+Wire Wire Line
+	4600 5200 5200 5200
+Text Label 5000 5200 0    70   ~ 0
+NA
+Wire Wire Line
+	4600 6900 5200 6900
+Text Label 5000 6900 0    70   ~ 0
+NA
+Wire Wire Line
+	3800 2300 4200 2300
+Text Label 4000 2300 0    70   ~ 0
+NA
+Wire Wire Line
+	4600 5900 5200 5900
+Text Label 5000 5900 0    70   ~ 0
+B
+Wire Wire Line
+	2600 7600 2200 7600
+Text Label 2200 7600 0    70   ~ 0
+B
+Wire Wire Line
+	3800 1700 4200 1700
+Text Label 4000 1700 0    70   ~ 0
+B
+Wire Wire Line
+	6500 1900 6000 1900
+Text Label 6000 1900 0    70   ~ 0
+B
+Wire Wire Line
+	3400 1100 3100 1100
+Text Label 3100 1100 0    70   ~ 0
+INA
+Wire Wire Line
+	3400 1400 3100 1400
+Text Label 3100 1400 0    70   ~ 0
+INA
+Wire Wire Line
+	9400 5300 8900 5300
+Text Label 8900 5300 0    70   ~ 0
+INA
+Wire Wire Line
+	9400 6100 8900 6100
+Text Label 8900 6100 0    70   ~ 0
+INA
+Wire Wire Line
+	3400 1700 3100 1700
+Text Label 3100 1700 0    70   ~ 0
+INB
+Wire Wire Line
+	3400 2000 3100 2000
+Text Label 3100 2000 0    70   ~ 0
+INB
+Wire Wire Line
+	9400 5400 8900 5400
+Text Label 8900 5400 0    70   ~ 0
+INB
+Wire Wire Line
+	9400 6200 8900 6200
+Text Label 8900 6200 0    70   ~ 0
+INB
+Wire Wire Line
+	2900 6100 2900 6400
+Wire Wire Line
+	2900 6400 2900 6700
+Wire Wire Line
+	2900 6400 4300 6400
+Wire Wire Line
+	4300 6400 5400 6400
+Wire Wire Line
+	4300 6100 4300 6400
+Wire Wire Line
+	4300 6400 4300 6700
+Connection ~ 2900 6400
+Connection ~ 4300 6400
+Text Label 5200 6400 0    70   ~ 0
+C
+Wire Wire Line
+	3400 2900 3100 2900
+Text Label 3100 2900 0    70   ~ 0
+C
+Wire Wire Line
+	6500 2300 6000 2300
+Text Label 6000 2300 0    70   ~ 0
+C
+Wire Wire Line
+	2900 7100 2900 7400
+Wire Wire Line
+	4300 7100 4300 7400
+Wire Wire Line
+	6900 1500 7200 1500
+Wire Wire Line
+	7200 1900 6900 1900
+Wire Wire Line
+	6900 2300 7200 2300
+Wire Wire Line
+	9400 5500 8900 5500
+Text Label 8900 5500 0    70   ~ 0
+OUTC
+Wire Wire Line
+	3800 2900 4200 2900
+Text Label 4000 2900 0    70   ~ 0
+OUTC
+Wire Wire Line
+	9400 6300 8900 6300
+Text Label 8900 6300 0    70   ~ 0
+OUTC
+$Comp
+L passiveXOR-eagle-import:MOSFET-NCHANNEL Q1
+U 1 0 7D2051C3
+P 11500 2300
+F 0 "Q1" H 11700 2400 59  0000 L BNN
+F 1 "N-Channel" H 11700 2300 59  0000 L BNN
+F 2 "passiveXOR:SOT23" H 11500 2300 50  0001 C CNN
+F 3 "" H 11500 2300 50  0001 C CNN
+	1    11500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:MOSFET-NCHANNEL Q2
+U 1 0 A3D119E5
+P 2900 6900
+F 0 "Q2" H 3100 7000 59  0000 L BNN
+F 1 "N-Channel" H 3100 6900 59  0000 L BNN
+F 2 "passiveXOR:SOT23" H 2900 6900 50  0001 C CNN
+F 3 "" H 2900 6900 50  0001 C CNN
+	1    2900 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:MOSFET-NCHANNEL Q3
+U 1 0 C5804892
+P 4300 6900
+F 0 "Q3" H 4500 7000 59  0000 L BNN
+F 1 "N-Channel" H 4500 6900 59  0000 L BNN
+F 2 "passiveXOR:SOT23" H 4300 6900 50  0001 C CNN
+F 3 "" H 4300 6900 50  0001 C CNN
+	1    4300 6900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:MOSFET-PCHANNEL Q4
+U 1 0 2EC196B3
+P 11500 1500
+F 0 "Q4" H 11700 1600 59  0000 L BNN
+F 1 "P-Channel" H 11700 1500 59  0000 L BNN
+F 2 "passiveXOR:SOT23" H 11500 1500 50  0001 C CNN
+F 3 "" H 11500 1500 50  0001 C CNN
+	1    11500 1500
+	1    0    0    1   
+$EndComp
+$Comp
+L passiveXOR-eagle-import:MOSFET-PCHANNEL Q5
+U 1 0 AFB14752
+P 2900 5200
+F 0 "Q5" H 3100 5300 59  0000 L BNN
+F 1 "P-Channel" H 3100 5200 59  0000 L BNN
+F 2 "passiveXOR:SOT23" H 2900 5200 50  0001 C CNN
+F 3 "" H 2900 5200 50  0001 C CNN
+	1    2900 5200
+	1    0    0    1   
+$EndComp
+$Comp
+L passiveXOR-eagle-import:MOSFET-PCHANNEL Q6
+U 1 0 9BE6B97C
+P 4300 5200
+F 0 "Q6" H 4500 5300 59  0000 L BNN
+F 1 "P-Channel" H 4500 5200 59  0000 L BNN
+F 2 "passiveXOR:SOT23" H 4300 5200 50  0001 C CNN
+F 3 "" H 4300 5200 50  0001 C CNN
+	1    4300 5200
+	-1   0    0    1   
+$EndComp
+$Comp
+L passiveXOR-eagle-import:GND #GND01
+U 1 0 8DA2BB24
+P 11500 2900
+F 0 "#GND01" H 11500 2900 50  0001 C CNN
+F 1 "GND" H 11400 2800 59  0000 L BNN
+F 2 "" H 11500 2900 50  0001 C CNN
+F 3 "" H 11500 2900 50  0001 C CNN
+	1    11500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:VDD #VDD01
+U 1 0 72EF7348
+P 11500 800
+F 0 "#VDD01" H 11500 800 50  0001 C CNN
+F 1 "VDD" V 11400 700 59  0000 L BNN
+F 2 "" H 11500 800 50  0001 C CNN
+F 3 "" H 11500 800 50  0001 C CNN
+	1    11500 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:MOSFET-NCHANNEL Q7
+U 1 0 35AFFE55
+P 13800 2300
+F 0 "Q7" H 14000 2400 59  0000 L BNN
+F 1 "N-Channel" H 14000 2300 59  0000 L BNN
+F 2 "passiveXOR:SOT23" H 13800 2300 50  0001 C CNN
+F 3 "" H 13800 2300 50  0001 C CNN
+	1    13800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:MOSFET-PCHANNEL Q8
+U 1 0 21A87049
+P 13800 1500
+F 0 "Q8" H 14000 1600 59  0000 L BNN
+F 1 "P-Channel" H 14000 1500 59  0000 L BNN
+F 2 "passiveXOR:SOT23" H 13800 1500 50  0001 C CNN
+F 3 "" H 13800 1500 50  0001 C CNN
+	1    13800 1500
+	1    0    0    1   
+$EndComp
+$Comp
+L passiveXOR-eagle-import:GND #GND02
+U 1 0 4877C9E2
+P 13800 2900
+F 0 "#GND02" H 13800 2900 50  0001 C CNN
+F 1 "GND" H 13700 2800 59  0000 L BNN
+F 2 "" H 13800 2900 50  0001 C CNN
+F 3 "" H 13800 2900 50  0001 C CNN
+	1    13800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:VDD #VDD02
+U 1 0 EDEAD374
+P 13800 800
+F 0 "#VDD02" H 13800 800 50  0001 C CNN
+F 1 "VDD" V 13700 700 59  0000 L BNN
+F 2 "" H 13800 800 50  0001 C CNN
+F 3 "" H 13800 800 50  0001 C CNN
+	1    13800 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:R-EU_R0603 R1
+U 1 0 815E0B78
+P 3600 1100
+F 0 "R1" H 3450 1159 59  0000 L BNN
+F 1 "TBD" H 3450 970 59  0000 L BNN
+F 2 "passiveXOR:R0603" H 3600 1100 50  0001 C CNN
+F 3 "" H 3600 1100 50  0001 C CNN
+	1    3600 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:R-EU_R0603 R2
+U 1 0 5066ECC5
+P 3600 1400
+F 0 "R2" H 3450 1459 59  0000 L BNN
+F 1 "TBD" H 3450 1270 59  0000 L BNN
+F 2 "passiveXOR:R0603" H 3600 1400 50  0001 C CNN
+F 3 "" H 3600 1400 50  0001 C CNN
+	1    3600 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:R-EU_R0603 R3
+U 1 0 7532E136
+P 3600 1700
+F 0 "R3" H 3450 1759 59  0000 L BNN
+F 1 "TBD" H 3450 1570 59  0000 L BNN
+F 2 "passiveXOR:R0603" H 3600 1700 50  0001 C CNN
+F 3 "" H 3600 1700 50  0001 C CNN
+	1    3600 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:R-EU_R0603 R4
+U 1 0 6FA66AEA
+P 3600 2000
+F 0 "R4" H 3450 2059 59  0000 L BNN
+F 1 "TBD" H 3450 1870 59  0000 L BNN
+F 2 "passiveXOR:R0603" H 3600 2000 50  0001 C CNN
+F 3 "" H 3600 2000 50  0001 C CNN
+	1    3600 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:R-EU_R0603 R5
+U 1 0 1FDDB827
+P 3600 2300
+F 0 "R5" H 3450 2359 59  0000 L BNN
+F 1 "TBD" H 3450 2170 59  0000 L BNN
+F 2 "passiveXOR:R0603" H 3600 2300 50  0001 C CNN
+F 3 "" H 3600 2300 50  0001 C CNN
+	1    3600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:MOSFET-PCHANNEL Q9
+U 1 0 E345D801
+P 2900 5900
+F 0 "Q9" H 3100 6000 59  0000 L BNN
+F 1 "P-Channel" H 3100 5900 59  0000 L BNN
+F 2 "passiveXOR:SOT23" H 2900 5900 50  0001 C CNN
+F 3 "" H 2900 5900 50  0001 C CNN
+	1    2900 5900
+	1    0    0    1   
+$EndComp
+$Comp
+L passiveXOR-eagle-import:MOSFET-PCHANNEL Q10
+U 1 0 EA51C8F2
+P 4300 5900
+F 0 "Q10" H 4500 6000 59  0000 L BNN
+F 1 "P-Channel" H 4500 5900 59  0000 L BNN
+F 2 "passiveXOR:SOT23" H 4300 5900 50  0001 C CNN
+F 3 "" H 4300 5900 50  0001 C CNN
+	1    4300 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L passiveXOR-eagle-import:VDD #VDD03
+U 1 0 34DDCE88
+P 3600 4200
+F 0 "#VDD03" H 3600 4200 50  0001 C CNN
+F 1 "VDD" V 3500 4100 59  0000 L BNN
+F 2 "" H 3600 4200 50  0001 C CNN
+F 3 "" H 3600 4200 50  0001 C CNN
+	1    3600 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:MOSFET-NCHANNEL Q11
+U 1 0 BD640738
+P 2900 7600
+F 0 "Q11" H 3100 7700 59  0000 L BNN
+F 1 "N-Channel" H 3100 7600 59  0000 L BNN
+F 2 "passiveXOR:SOT23" H 2900 7600 50  0001 C CNN
+F 3 "" H 2900 7600 50  0001 C CNN
+	1    2900 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:MOSFET-NCHANNEL Q12
+U 1 0 1B51DA34
+P 4300 7600
+F 0 "Q12" H 4500 7700 59  0000 L BNN
+F 1 "N-channel" H 4500 7600 59  0000 L BNN
+F 2 "passiveXOR:SOT23" H 4300 7600 50  0001 C CNN
+F 3 "" H 4300 7600 50  0001 C CNN
+	1    4300 7600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:GND #GND03
+U 1 0 21137572
+P 3600 8400
+F 0 "#GND03" H 3600 8400 50  0001 C CNN
+F 1 "GND" H 3500 8300 59  0000 L BNN
+F 2 "" H 3600 8400 50  0001 C CNN
+F 3 "" H 3600 8400 50  0001 C CNN
+	1    3600 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:R-EU_R0603 R6
+U 1 0 CEDED01D
+P 3600 2600
+F 0 "R6" H 3450 2659 59  0000 L BNN
+F 1 "TBD" H 3450 2470 59  0000 L BNN
+F 2 "passiveXOR:R0603" H 3600 2600 50  0001 C CNN
+F 3 "" H 3600 2600 50  0001 C CNN
+	1    3600 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:R-EU_R0603 R7
+U 1 0 33432603
+P 3600 2900
+F 0 "R7" H 3450 2959 59  0000 L BNN
+F 1 "TBD" H 3450 2770 59  0000 L BNN
+F 2 "passiveXOR:R0603" H 3600 2900 50  0001 C CNN
+F 3 "" H 3600 2900 50  0001 C CNN
+	1    3600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:R-EU_R0603 R8
+U 1 0 B71BB25A
+P 6700 1500
+F 0 "R8" H 6550 1559 59  0000 L BNN
+F 1 "220R" H 6550 1370 59  0000 L BNN
+F 2 "passiveXOR:R0603" H 6700 1500 50  0001 C CNN
+F 3 "" H 6700 1500 50  0001 C CNN
+	1    6700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:R-EU_R0603 R9
+U 1 0 A573698D
+P 6700 1900
+F 0 "R9" H 6550 1959 59  0000 L BNN
+F 1 "220R" H 6550 1770 59  0000 L BNN
+F 2 "passiveXOR:R0603" H 6700 1900 50  0001 C CNN
+F 3 "" H 6700 1900 50  0001 C CNN
+	1    6700 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:R-EU_R0603 R10
+U 1 0 473E7666
+P 6700 2300
+F 0 "R10" H 6550 2359 59  0000 L BNN
+F 1 "220R" H 6550 2170 59  0000 L BNN
+F 2 "passiveXOR:R0603" H 6700 2300 50  0001 C CNN
+F 3 "" H 6700 2300 50  0001 C CNN
+	1    6700 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:LEDCHIPLED_0805 LED1
+U 1 0 83A8F355
+P 7300 1500
+F 0 "LED1" V 7440 1320 59  0000 L BNN
+F 1 "Inidcator INA" V 7525 1320 59  0000 L BNN
+F 2 "passiveXOR:CHIPLED_0805" H 7300 1500 50  0001 C CNN
+F 3 "" H 7300 1500 50  0001 C CNN
+	1    7300 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L passiveXOR-eagle-import:LEDCHIPLED_0805 LED2
+U 1 0 A68AB428
+P 7300 1900
+F 0 "LED2" V 7440 1720 59  0000 L BNN
+F 1 "Indicator INB" V 7525 1720 59  0000 L BNN
+F 2 "passiveXOR:CHIPLED_0805" H 7300 1900 50  0001 C CNN
+F 3 "" H 7300 1900 50  0001 C CNN
+	1    7300 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L passiveXOR-eagle-import:LEDCHIPLED_0805 LED3
+U 1 0 7602D2B0
+P 7300 2300
+F 0 "LED3" V 7440 2120 59  0000 L BNN
+F 1 "Indicator OUTC" V 7525 2120 59  0000 L BNN
+F 2 "passiveXOR:CHIPLED_0805" H 7300 2300 50  0001 C CNN
+F 3 "" H 7300 2300 50  0001 C CNN
+	1    7300 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L passiveXOR-eagle-import:GND #GND04
+U 1 0 12C122FD
+P 7900 3000
+F 0 "#GND04" H 7900 3000 50  0001 C CNN
+F 1 "GND" H 7800 2900 59  0000 L BNN
+F 2 "" H 7900 3000 50  0001 C CNN
+F 3 "" H 7900 3000 50  0001 C CNN
+	1    7900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:A3L-LOC #FRAME1
+U 1 0 DAFDB85F
+P 1000 9900
+F 0 "#FRAME1" H 1000 9900 50  0001 C CNN
+F 1 "DESCREET XOR" H 1000 9900 50  0001 C CNN
+F 2 "" H 1000 9900 50  0001 C CNN
+F 3 "" H 1000 9900 50  0001 C CNN
+	1    1000 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:VDD #VDD04
+U 1 0 055670B3
+P 8900 5100
+F 0 "#VDD04" H 8900 5100 50  0001 C CNN
+F 1 "VDD" V 8800 5000 59  0000 L BNN
+F 2 "" H 8900 5100 50  0001 C CNN
+F 3 "" H 8900 5100 50  0001 C CNN
+	1    8900 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:VDD #VDD05
+U 1 0 38DFADE0
+P 8900 5900
+F 0 "#VDD05" H 8900 5900 50  0001 C CNN
+F 1 "VDD" V 8800 5800 59  0000 L BNN
+F 2 "" H 8900 5900 50  0001 C CNN
+F 3 "" H 8900 5900 50  0001 C CNN
+	1    8900 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L passiveXOR-eagle-import:M05NO_SILK JP3
+U 1 0 8182258E
+P 9700 5400
+F 0 "JP3" H 9600 5730 59  0000 L BNN
+F 1 "M05NO_SILK" H 9600 5000 59  0000 L BNN
+F 2 "passiveXOR:1X05_NO_SILK" H 9700 5400 50  0001 C CNN
+F 3 "" H 9700 5400 50  0001 C CNN
+	1    9700 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L passiveXOR-eagle-import:M05NO_SILK JP4
+U 1 0 193933AB
+P 9700 6200
+F 0 "JP4" H 9600 6530 59  0000 L BNN
+F 1 "M05NO_SILK" H 9600 5800 59  0000 L BNN
+F 2 "passiveXOR:1X05_NO_SILK" H 9700 6200 50  0001 C CNN
+F 3 "" H 9700 6200 50  0001 C CNN
+	1    9700 6200
+	-1   0    0    1   
+$EndComp
+Text Notes 2600 4500 0    59   ~ 0
+XOR
+Text Notes 3400 900  0    59   ~ 0
+circuit links 
+Text Notes 10500 1200 0    59   ~ 0
+NOT GATE 1
+Text Notes 13000 1200 0    59   ~ 0
+NOT GATE 2
+$EndSCHEMATC
