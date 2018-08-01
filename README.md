@@ -10,11 +10,16 @@ REV1 Design Completed 17/07/18
 Week 2: TINYMCU
 
 A Breakout for the Atmel/Microchip AtTiny 4/5/9/10 also suitabe for Microchip PIC10F320/322
-REV1 Design Complete 17/07/18
+REV1 Design Complete 24/07/18
 
-Week 3: INTOKICAD
+Week 3: INTOKICAD / RABIDCHARLIE
 
-First design using KiCAD Wish me luck.
+First design using KiCAD Wish me luck. This week I ending up with two designs IntoKiCAD is unfinished it was my first steps in using KiCAD. RabidCHARLE is a complete board ready to produce, containing 12 Charlieplexed LEDs.
+RabidCHARLIE REV1 Design Complete 31/07/18
+
+Week 4: BUBBLE WATCH
+
+In Progress!!!
 
 License / Warranty
 
