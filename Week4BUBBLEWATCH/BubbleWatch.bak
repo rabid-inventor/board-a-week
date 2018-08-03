@@ -1,36 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+LIBS:noname-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -46,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L BAWKiCADLib:RedRetroBubbleDisplay U1
+L BAWKiCADLib:RedRetroBubbleDisplay U?
 U 1 1 5B620959
 P 5600 3550
-F 0 "U1" H 5600 4217 60  0000 C CNN
+F 0 "U?" H 5600 4217 60  0000 C CNN
 F 1 "RedRetroBubbleDisplay" H 5600 4096 80  0000 C CNB
 F 2 "" H 5650 4100 60  0001 C CNN
 F 3 "" H 5650 4100 60  0001 C CNN
@@ -57,10 +26,10 @@ F 3 "" H 5650 4100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BAWKiCADLib:RedRetroBubbleDisplay U2
+L BAWKiCADLib:RedRetroBubbleDisplay U?
 U 1 1 5B6209B6
 P 5600 4800
-F 0 "U2" H 5600 5467 60  0000 C CNN
+F 0 "U?" H 5600 5467 60  0000 C CNN
 F 1 "RedRetroBubbleDisplay" H 5600 5346 80  0000 C CNB
 F 2 "" H 5650 5350 60  0001 C CNN
 F 3 "" H 5650 5350 60  0001 C CNN
@@ -134,10 +103,10 @@ F 3 "~" H 2900 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCU_ST_STM32F0:STM32F030C8Tx U3
+L MCU_ST_STM32F0:STM32F030C8Tx U?
 U 1 1 5B620EA5
 P 1850 5650
-F 0 "U3" H 1850 3964 50  0000 C CNN
+F 0 "U?" H 1850 3964 50  0000 C CNN
 F 1 "STM32F030C8Tx" H 1850 3873 50  0000 C CNN
 F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 1350 4150 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00088500.pdf" H 1850 5650 50  0001 C CNN
@@ -335,9 +304,13 @@ Text Label 7700 4750 0    50   ~ 0
 SEGG
 Text Label 7700 4850 0    50   ~ 0
 SEGDP
-Text Label 850  5250 0    50   ~ 0
+Wire Wire Line
+	1250 5250 900  5250
+Wire Wire Line
+	1250 5350 900  5350
+Text Label 900  5250 0    50   ~ 0
 RTC_XTAL_IN
-Text Label 850  5350 0    50   ~ 0
+Text Label 900  5350 0    50   ~ 0
 RTC_XTAL_OUT
 Wire Wire Line
 	6250 3200 6750 3200
@@ -403,136 +376,4 @@ Text Label 6750 3300 2    50   ~ 0
 SEGB
 Text Label 6750 3200 2    50   ~ 0
 SEGA
-Wire Wire Line
-	1250 4850 850  4850
-Wire Wire Line
-	1250 4950 850  4950
-Wire Wire Line
-	2450 5550 2950 5550
-Wire Wire Line
-	2450 5650 2950 5650
-Wire Wire Line
-	2450 5750 2950 5750
-Wire Wire Line
-	2450 5850 2950 5850
-Wire Wire Line
-	2450 5950 2950 5950
-Wire Wire Line
-	2450 6050 2950 6050
-Wire Wire Line
-	2450 6150 2950 6150
-Wire Wire Line
-	2450 6250 2950 6250
-Wire Wire Line
-	2450 6350 2950 6350
-Wire Wire Line
-	2450 6450 2950 6450
-Wire Wire Line
-	2450 6550 2950 6550
-Wire Wire Line
-	2450 6650 2950 6650
-Wire Wire Line
-	2450 6750 2950 6750
-Wire Wire Line
-	2450 6850 2950 6850
-Wire Wire Line
-	2450 6950 2950 6950
-Wire Wire Line
-	2450 7050 2950 7050
-Wire Wire Line
-	4950 3300 4500 3300
-Wire Wire Line
-	4950 3450 4500 3450
-Wire Wire Line
-	4950 3650 4500 3650
-Wire Wire Line
-	4950 3800 4500 3800
-Text Label 4500 3300 0    50   ~ 0
-DIS1
-Text Label 4500 3450 0    50   ~ 0
-DIS2
-Text Label 4500 3650 0    50   ~ 0
-DIS3
-Text Label 4500 3800 0    50   ~ 0
-DIS4
-Text Label 4500 4550 0    50   ~ 0
-DIS5
-Wire Wire Line
-	4950 4550 4500 4550
-Wire Wire Line
-	4950 4700 4500 4700
-Wire Wire Line
-	4950 4900 4500 4900
-Wire Wire Line
-	4950 5050 4500 5050
-Text Label 2950 6350 2    50   ~ 0
-DIS1
-Text Label 2950 6450 2    50   ~ 0
-DIS2
-Text Label 2950 6550 2    50   ~ 0
-DIS3
-Text Label 2950 6650 2    50   ~ 0
-DIS4
-Text Label 2950 6750 2    50   ~ 0
-DIS5
-Text Label 8800 3700 2    50   ~ 0
-IOSEGA
-Text Label 8800 3800 2    50   ~ 0
-IOSEGB
-Text Label 8800 3900 2    50   ~ 0
-IOSEGC
-Text Label 8800 4000 2    50   ~ 0
-IOSEGD
-Text Label 8750 4550 2    50   ~ 0
-IOSEGE
-Text Label 8750 4650 2    50   ~ 0
-IOSEGF
-Text Label 8750 4750 2    50   ~ 0
-IOSEGG
-Text Label 8750 4850 2    50   ~ 0
-IOSEGDP
-Text Label 2950 6850 2    50   ~ 0
-DIS6
-Text Label 2950 6950 2    50   ~ 0
-DIS7
-Text Label 2950 7050 2    50   ~ 0
-DIS8
-Text Label 4500 4700 0    50   ~ 0
-DIS6
-Text Label 4500 4900 0    50   ~ 0
-DIS7
-Text Label 4500 5050 0    50   ~ 0
-DIS8
-Text Label 2950 5550 2    50   ~ 0
-IOSEGA
-Text Label 2950 5650 2    50   ~ 0
-IOSEGB
-Text Label 2950 5750 2    50   ~ 0
-IOSEGC
-Text Label 2950 5850 2    50   ~ 0
-IOSEGD
-Text Label 2950 5950 2    50   ~ 0
-IOSEGE
-Text Label 2950 6050 2    50   ~ 0
-IOSEGF
-Text Label 2950 6150 2    50   ~ 0
-IOSEGG
-Text Label 2950 6250 2    50   ~ 0
-IOSEGDP
-Text Label 850  4850 0    50   ~ 0
-I2C1_SCL
-Text Label 850  4950 0    50   ~ 0
-I2C1_SDA
-Wire Wire Line
-	850  5350 1250 5350
-Wire Wire Line
-	850  5250 1250 5250
-Wire Wire Line
-	1250 4450 850  4450
-Wire Wire Line
-	1250 4250 850  4250
-Text Label 850  4250 0    50   ~ 0
-RESET
-Text Label 850  4450 0    50   ~ 0
-BOOT0
 $EndSCHEMATC

@@ -1,36 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -165,5 +133,93 @@ F 2 "" V 8475 4650 50  0001 C CNN
 F 3 "~" H 8200 4650 50  0001 C CNN
 	1    8200 4650
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Regulator_Switching:MCP1640BCH U?
+U 1 1 5B647ACB
+P 9550 1800
+F 0 "U?" H 9550 2267 50  0000 C CNN
+F 1 "MCP1640BCH" H 9550 2176 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 9600 1550 50  0001 L CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20002234D.pdf" H 9300 2250 50  0001 C CNN
+	1    9550 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5B647B57
+P 5950 1250
+F 0 "#PWR?" H 5950 1100 50  0001 C CNN
+F 1 "+BATT" H 5965 1423 50  0000 C CNN
+F 2 "" H 5950 1250 50  0001 C CNN
+F 3 "" H 5950 1250 50  0001 C CNN
+	1    5950 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5B647BC3
+P 8100 1650
+F 0 "L?" H 8153 1696 50  0000 L CNN
+F 1 "L" H 8153 1605 50  0000 L CNN
+F 2 "" H 8100 1650 50  0001 C CNN
+F 3 "~" H 8100 1650 50  0001 C CNN
+	1    8100 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5B647CB5
+P 8650 1700
+F 0 "C?" H 8765 1746 50  0000 L CNN
+F 1 "C" H 8765 1655 50  0000 L CNN
+F 2 "" H 8688 1550 50  0001 C CNN
+F 3 "~" H 8650 1700 50  0001 C CNN
+	1    8650 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B647D42
+P 9300 2300
+F 0 "R?" H 9370 2346 50  0000 L CNN
+F 1 "R" H 9370 2255 50  0000 L CNN
+F 2 "" V 9230 2300 50  0001 C CNN
+F 3 "~" H 9300 2300 50  0001 C CNN
+	1    9300 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B647DB8
+P 9750 2350
+F 0 "#PWR?" H 9750 2100 50  0001 C CNN
+F 1 "GND" H 9755 2177 50  0000 C CNN
+F 2 "" H 9750 2350 50  0001 C CNN
+F 3 "" H 9750 2350 50  0001 C CNN
+	1    9750 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5B647F46
+P 4250 1750
+F 0 "BT?" H 4368 1846 50  0000 L CNN
+F 1 "Battery_Cell" H 4368 1755 50  0000 L CNN
+F 2 "" V 4250 1810 50  0001 C CNN
+F 3 "~" V 4250 1810 50  0001 C CNN
+	1    4250 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5B647FA6
+P 4250 2250
+F 0 "BT?" H 4368 2346 50  0000 L CNN
+F 1 "Battery_Cell" H 4368 2255 50  0000 L CNN
+F 2 "" V 4250 2310 50  0001 C CNN
+F 3 "~" V 4250 2310 50  0001 C CNN
+	1    4250 2250
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
