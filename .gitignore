@@ -15,7 +15,7 @@
 eagle.epf
 
 # Autorouter files
-*.pro
+#*.pro needed for Kicad project files
 *.job
 
 # CAM files
