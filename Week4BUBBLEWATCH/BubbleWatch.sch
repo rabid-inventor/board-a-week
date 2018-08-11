@@ -20,7 +20,7 @@ U 1 1 5B620959
 P 4750 3550
 F 0 "U1" H 4750 4217 60  0000 C CNN
 F 1 "RedRetroBubbleDisplay" H 4750 4096 80  0000 C CNB
-F 2 "Package_DIP:DIP-12_W7.62mm_Socket" H 4800 4100 60  0001 C CNN
+F 2 "Package_DIP:DIP-12_W7.62mm_SMDSocket_SmallPads" H 4800 4100 60  0001 C CNN
 F 3 "" H 4800 4100 60  0001 C CNN
 	1    4750 3550
 	1    0    0    -1  
@@ -31,7 +31,7 @@ U 1 1 5B6209B6
 P 4750 4800
 F 0 "U2" H 4750 5467 60  0000 C CNN
 F 1 "RedRetroBubbleDisplay" H 4750 5346 80  0000 C CNB
-F 2 "Package_DIP:DIP-12_W7.62mm_Socket" H 4800 5350 60  0001 C CNN
+F 2 "Package_DIP:DIP-12_W7.62mm_SMDSocket_SmallPads" H 4800 5350 60  0001 C CNN
 F 3 "" H 4800 5350 60  0001 C CNN
 	1    4750 4800
 	1    0    0    -1  
@@ -365,7 +365,7 @@ U 1 1 5B670F70
 P 3750 1600
 F 0 "J1" H 3800 1700 50  0000 C CNN
 F 1 "Conn_02x02_Counter_Clockwise" H 3800 1400 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 3750 1600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical_SMD" H 3750 1600 50  0001 C CNN
 F 3 "" H 3750 1600 50  0001 C CNN
 	1    3750 1600
 	1    0    0    -1  
@@ -376,7 +376,7 @@ U 1 1 5B671069
 P 3750 2050
 F 0 "J2" H 3800 2150 50  0000 C CNN
 F 1 "Conn_02x02_Counter_Clockwise" H 3800 1850 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 3750 2050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical_SMD" H 3750 2050 50  0001 C CNN
 F 3 "" H 3750 2050 50  0001 C CNN
 	1    3750 2050
 	1    0    0    -1  

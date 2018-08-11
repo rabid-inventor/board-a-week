@@ -20,7 +20,7 @@ U 1 1 5B620959
 P 4750 3550
 F 0 "U1" H 4750 4217 60  0000 C CNN
 F 1 "RedRetroBubbleDisplay" H 4750 4096 80  0000 C CNB
-F 2 "Package_DIP:DIP-12_W7.62mm_Socket" H 4800 4100 60  0001 C CNN
+F 2 "Package_DIP:DIP-12_W7.62mm_SMDSocket_SmallPads" H 4800 4100 60  0001 C CNN
 F 3 "" H 4800 4100 60  0001 C CNN
 	1    4750 3550
 	1    0    0    -1  
@@ -31,7 +31,7 @@ U 1 1 5B6209B6
 P 4750 4800
 F 0 "U2" H 4750 5467 60  0000 C CNN
 F 1 "RedRetroBubbleDisplay" H 4750 5346 80  0000 C CNB
-F 2 "Package_DIP:DIP-12_W7.62mm_Socket" H 4800 5350 60  0001 C CNN
+F 2 "Package_DIP:DIP-12_W7.62mm_SMDSocket_SmallPads" H 4800 5350 60  0001 C CNN
 F 3 "" H 4800 5350 60  0001 C CNN
 	1    4750 4800
 	1    0    0    -1  
@@ -365,7 +365,7 @@ U 1 1 5B670F70
 P 3750 1600
 F 0 "J1" H 3800 1700 50  0000 C CNN
 F 1 "Conn_02x02_Counter_Clockwise" H 3800 1400 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 3750 1600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical_SMD" H 3750 1600 50  0001 C CNN
 F 3 "" H 3750 1600 50  0001 C CNN
 	1    3750 1600
 	1    0    0    -1  
@@ -376,7 +376,7 @@ U 1 1 5B671069
 P 3750 2050
 F 0 "J2" H 3800 2150 50  0000 C CNN
 F 1 "Conn_02x02_Counter_Clockwise" H 3800 1850 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 3750 2050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical_SMD" H 3750 2050 50  0001 C CNN
 F 3 "" H 3750 2050 50  0001 C CNN
 	1    3750 2050
 	1    0    0    -1  
@@ -892,15 +892,11 @@ Connection ~ 3950 6000
 Connection ~ 4150 6000
 Connection ~ 4150 6950
 Wire Wire Line
-	4050 1600 4450 1600
-Wire Wire Line
 	4050 1700 4450 1700
 Wire Wire Line
 	3550 1600 3100 1600
 Wire Wire Line
 	3550 1700 3100 1700
-Wire Wire Line
-	4050 2050 4450 2050
 Wire Wire Line
 	4050 2150 4450 2150
 Wire Wire Line
@@ -1231,4 +1227,34 @@ Wire Wire Line
 	10700 1700 10800 1700
 Wire Wire Line
 	10700 2350 10700 2700
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 5B6A8117
+P 4550 1550
+F 0 "#PWR0102" H 4550 1400 50  0001 C CNN
+F 1 "+3.3V" H 4565 1723 50  0000 C CNN
+F 2 "" H 4550 1550 50  0001 C CNN
+F 3 "" H 4550 1550 50  0001 C CNN
+	1    4550 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 5B6A815C
+P 4550 2000
+F 0 "#PWR0103" H 4550 1850 50  0001 C CNN
+F 1 "+3.3V" H 4565 2173 50  0000 C CNN
+F 2 "" H 4550 2000 50  0001 C CNN
+F 3 "" H 4550 2000 50  0001 C CNN
+	1    4550 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2050 4550 2000
+Wire Wire Line
+	4050 2050 4550 2050
+Wire Wire Line
+	4550 1600 4550 1550
+Wire Wire Line
+	4050 1600 4550 1600
 $EndSCHEMATC
