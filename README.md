@@ -27,6 +27,7 @@ Week 5: Lets try a new IC
 
 A breakout board for the brand new BMA400 Accelerometer, designed using limited datasheet information. 
 
+Design Complete 27/08/17
 
 
 License / Warranty
