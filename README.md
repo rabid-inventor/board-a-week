@@ -29,6 +29,11 @@ A breakout board for the brand new BMA400 Accelerometer, designed using limited 
 
 Design Complete 27/08/17
 
+Week 6: Blink A Led
+
+Entry for the Mouser / MacroFAB Blink A Led competition
+ 
+
 
 License / Warranty
 
