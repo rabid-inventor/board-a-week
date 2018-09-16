@@ -1,0 +1,82 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D?
+U 1 1 5B9E734A
+P 2750 1500
+F 0 "D?" H 2741 1716 50  0000 C CNN
+F 1 "LED" H 2741 1625 50  0000 C CNN
+F 2 "" H 2750 1500 50  0001 C CNN
+F 3 "~" H 2750 1500 50  0001 C CNN
+	1    2750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5B9E7450
+P 2750 1850
+F 0 "D?" H 2741 2066 50  0000 C CNN
+F 1 "LED" H 2741 1975 50  0000 C CNN
+F 2 "" H 2750 1850 50  0001 C CNN
+F 3 "~" H 2750 1850 50  0001 C CNN
+	1    2750 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5B9E7476
+P 2750 2200
+F 0 "D?" H 2741 2416 50  0000 C CNN
+F 1 "LED" H 2741 2325 50  0000 C CNN
+F 2 "" H 2750 2200 50  0001 C CNN
+F 3 "~" H 2750 2200 50  0001 C CNN
+	1    2750 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5B9E74CA
+P 2750 2550
+F 0 "D?" H 2741 2766 50  0000 C CNN
+F 1 "LED" H 2741 2675 50  0000 C CNN
+F 2 "" H 2750 2550 50  0001 C CNN
+F 3 "~" H 2750 2550 50  0001 C CNN
+	1    2750 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_NXP_LPC:LPC1104UK U?
+U 1 1 5B9E7560
+P 4100 5300
+F 0 "U?" H 4100 6178 50  0000 C CNN
+F 1 "LPC1104UK" H 4100 6087 50  0000 C CNN
+F 2 "Package_CSP:WLCSP-16_4x4_B2.17x2.32mm_P0.5mm" H 5200 6000 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/LPC1102_1104.pdf" H 4100 5300 50  0001 C CNN
+	1    4100 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5B9E76A8
+P 6350 2250
+F 0 "BT?" H 6468 2346 50  0000 L CNN
+F 1 "Battery_Cell" H 6468 2255 50  0000 L CNN
+F 2 "" V 6350 2310 50  0001 C CNN
+F 3 "~" V 6350 2310 50  0001 C CNN
+	1    6350 2250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
