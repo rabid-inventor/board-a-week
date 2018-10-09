@@ -1,0 +1,104 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_ST_STM32F0:STM32F072C8Tx U?
+U 1 1 5BBCCCC4
+P 6350 3300
+F 0 "U?" H 6300 1714 50  0000 C CNN
+F 1 "STM32F072C8Tx" H 6300 1623 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 5750 1900 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf" H 6350 3300 50  0001 C CNN
+	1    6350 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_OTG J?
+U 1 1 5BBCCD9F
+P 2750 2350
+F 0 "J?" H 2805 2817 50  0000 C CNN
+F 1 "USB_OTG" H 2805 2726 50  0000 C CNN
+F 2 "" H 2900 2300 50  0001 C CNN
+F 3 " ~" H 2900 2300 50  0001 C CNN
+	1    2750 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_EEPROM:25LCxxx U?
+U 1 1 5BBCCF98
+P 2000 4450
+F 0 "U?" H 2000 4928 50  0000 C CNN
+F 1 "25LCxxx" H 2000 4837 50  0000 C CNN
+F 2 "" H 2000 4450 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21832H.pdf" H 2000 4450 50  0001 C CNN
+	1    2000 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 5BBCD0D5
+P 5000 4650
+F 0 "Y?" H 5000 4918 50  0000 C CNN
+F 1 "Crystal" H 5000 4827 50  0000 C CNN
+F 2 "" H 5000 4650 50  0001 C CNN
+F 3 "~" H 5000 4650 50  0001 C CNN
+	1    5000 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BBCD1D2
+P 8200 1650
+F 0 "#PWR?" H 8200 1400 50  0001 C CNN
+F 1 "GND" H 8205 1477 50  0000 C CNN
+F 2 "" H 8200 1650 50  0001 C CNN
+F 3 "" H 8200 1650 50  0001 C CNN
+	1    8200 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR?
+U 1 1 5BBCD226
+P 8650 2850
+F 0 "#PWR?" H 8650 2700 50  0001 C CNN
+F 1 "VBUS" H 8665 3023 50  0000 C CNN
+F 2 "" H 8650 2850 50  0001 C CNN
+F 3 "" H 8650 2850 50  0001 C CNN
+	1    8650 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5BBCD26E
+P 7600 2650
+F 0 "#PWR?" H 7600 2500 50  0001 C CNN
+F 1 "+5V" H 7615 2823 50  0000 C CNN
+F 2 "" H 7600 2650 50  0001 C CNN
+F 3 "" H 7600 2650 50  0001 C CNN
+	1    7600 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5BBCD2AD
+P 7650 2000
+F 0 "#PWR?" H 7650 1850 50  0001 C CNN
+F 1 "+3V3" H 7665 2173 50  0000 C CNN
+F 2 "" H 7650 2000 50  0001 C CNN
+F 3 "" H 7650 2000 50  0001 C CNN
+	1    7650 2000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
