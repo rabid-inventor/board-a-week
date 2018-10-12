@@ -336,4 +336,15 @@ Text Label 3850 4000 2    50   ~ 0
 SDA_3V3
 Text Label 3850 4100 2    50   ~ 0
 SCL_3V3
+$Comp
+L BAWKiCADLib:AP7333-33SRG-7 U?
+U 1 1 5BC0C074
+P 9350 3050
+F 0 "U?" H 9350 3342 50  0000 C CNN
+F 1 "AP7333-33SRG-7" H 9350 3251 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 9400 3400 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP7333.pdf" H 9600 3500 50  0001 C CNN
+	1    9350 3050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
