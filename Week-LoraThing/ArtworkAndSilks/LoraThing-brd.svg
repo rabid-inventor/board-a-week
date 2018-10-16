@@ -14,7 +14,7 @@
    viewBox="0 0 9840 17120 "
    id="svg4512"
    sodipodi:docname="LoraThing-brd.svg"
-   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+   inkscape:version="0.92.0 r15299">
   <metadata
      id="metadata4518">
     <rdf:RDF>
@@ -37,13 +37,13 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="2560"
-     inkscape:window-height="1377"
+     inkscape:window-width="1280"
+     inkscape:window-height="961"
      id="namedview4514"
      showgrid="false"
      inkscape:zoom="5.2400996"
-     inkscape:cx="159.39207"
-     inkscape:cy="84.718283"
+     inkscape:cx="135.82382"
+     inkscape:cy="61.975592"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -3169,14 +3169,14 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:963.88659668px;line-height:1.25;font-family:Rabid_Science;-inkscape-font-specification:Rabid_Science;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:104.16664886"
-     x="16782.062"
-     y="17428.111"
+     x="16820.068"
+     y="17365.727"
      id="text4940"
      transform="scale(1.0460936,0.95593741)"><tspan
        sodipodi:role="line"
        id="tspan4938"
-       x="16782.062"
-       y="17428.111"
+       x="16820.068"
+       y="17365.727"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'So Run Down';-inkscape-font-specification:'So Run Down';stroke-width:104.16664886">Blood-&gt;</tspan></text>
   <text
      xml:space="preserve"
@@ -3193,49 +3193,73 @@
   <text
      transform="scale(1.0460936,0.95593741)"
      id="text1564"
-     y="11251.983"
-     x="16211.977"
+     y="11189.599"
+     x="16145.242"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:963.88659668px;line-height:1.25;font-family:Rabid_Science;-inkscape-font-specification:Rabid_Science;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:104.16664886"
      xml:space="preserve"><tspan
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'So Run Down';-inkscape-font-specification:'So Run Down';stroke-width:104.16664886"
-       y="11251.983"
-       x="16211.977"
+       y="11189.599"
+       x="16145.242"
        id="tspan1562"
        sodipodi:role="line">drain  &lt;-</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:963.88659668px;line-height:1.25;font-family:Rabid_Science;-inkscape-font-specification:Rabid_Science;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:104.16664886"
-     x="16763.059"
-     y="12229.352"
+     x="16707.113"
+     y="16290.908"
      id="text1568"
      transform="scale(1.0460936,0.95593741)"><tspan
        sodipodi:role="line"
        id="tspan1566"
-       x="16763.059"
-       y="12229.352"
+       x="16707.113"
+       y="16290.908"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'So Run Down';-inkscape-font-specification:'So Run Down';stroke-width:104.16664886">Time  -&gt;</tspan></text>
   <text
      transform="scale(1.0460936,0.95593741)"
      id="text1572"
-     y="13289.898"
-     x="15470.865"
+     y="15269.586"
+     x="15430.717"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:963.88659668px;line-height:1.25;font-family:Rabid_Science;-inkscape-font-specification:Rabid_Science;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:104.16664886"
      xml:space="preserve"><tspan
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'So Run Down';-inkscape-font-specification:'So Run Down';stroke-width:104.16664886"
-       y="13289.898"
-       x="15470.865"
+       y="15269.586"
+       x="15430.717"
        id="tspan1570"
        sodipodi:role="line">master  -&gt;</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:963.88659668px;line-height:1.25;font-family:Rabid_Science;-inkscape-font-specification:Rabid_Science;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:104.16664886"
-     x="16249.983"
-     y="14412.83"
+     x="16277.023"
+     y="14256.457"
      id="text1576"
      transform="scale(1.0460936,0.95593741)"><tspan
        sodipodi:role="line"
        id="tspan1574"
-       x="16249.983"
-       y="14412.83"
+       x="16277.023"
+       y="14256.457"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'So Run Down';-inkscape-font-specification:'So Run Down';stroke-width:104.16664886">SLave  &lt;-</tspan></text>
+  <text
+     transform="scale(1.0460936,0.95593741)"
+     id="text759"
+     y="13256.822"
+     x="15278.227"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:963.88659668px;line-height:1.25;font-family:Rabid_Science;-inkscape-font-specification:Rabid_Science;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:104.16664886"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'So Run Down';-inkscape-font-specification:'So Run Down';stroke-width:104.16664886"
+       y="13256.822"
+       x="15278.227"
+       id="tspan757"
+       sodipodi:role="line">Summon  -&gt;</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:963.88659668px;line-height:1.25;font-family:Rabid_Science;-inkscape-font-specification:Rabid_Science;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:104.16664886"
+     x="14743.57"
+     y="12194.054"
+     id="text763"
+     transform="scale(1.0460936,0.95593741)"><tspan
+       sodipodi:role="line"
+       id="tspan761"
+       x="14743.57"
+       y="12194.054"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'So Run Down';-inkscape-font-specification:'So Run Down';stroke-width:104.16664886">resurect  -&gt;</tspan></text>
 </svg>
