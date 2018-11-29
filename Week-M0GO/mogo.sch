@@ -11874,7 +11874,7 @@ PB2
 Text Label 5250 3400 0    50   ~ 0
 PB3
 Text Label 5250 3500 0    50   ~ 0
-PB3
+PB4
 Text Label 5250 3600 0    50   ~ 0
 PB5
 Text Label 5250 3700 0    50   ~ 0
@@ -12592,7 +12592,7 @@ U 1 1 5BF2D166
 P 4250 4700
 F 0 "J2" H 4277 4676 50  0000 L CNN
 F 1 "Conn_01x06_Female" H 4277 4585 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm" H 4250 4700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4250 4700 50  0001 C CNN
 F 3 "~" H 4250 4700 50  0001 C CNN
 	1    4250 4700
 	1    0    0    -1  
@@ -12652,7 +12652,7 @@ PB2
 Text Label 4050 6450 0    50   ~ 0
 PB3
 Text Label 4050 6550 0    50   ~ 0
-PB3
+PB4
 Text Label 4050 6650 0    50   ~ 0
 PB5
 Text Label 4050 6750 0    50   ~ 0
@@ -12790,6 +12790,36 @@ F 1 "VBUS" H 3715 5973 50  0000 C CNN
 F 2 "" H 3700 5800 50  0001 C CNN
 F 3 "" H 3700 5800 50  0001 C CNN
 	1    3700 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5BE7EB70
+P 3500 2250
+F 0 "SW1" H 3500 2535 50  0000 C CNN
+F 1 "SW_Push" H 3500 2444 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_TL3342" H 3500 2450 50  0001 C CNN
+F 3 "" H 3500 2450 50  0001 C CNN
+	1    3500 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2250 4150 2250
+Wire Wire Line
+	3300 2250 3050 2250
+Wire Wire Line
+	3050 2250 3050 2500
+Text Label 4150 2250 2    50   ~ 0
+_RESET
+$Comp
+L power:GND #PWR0103
+U 1 1 5BE93BB2
+P 3050 2500
+F 0 "#PWR0103" H 3050 2250 50  0001 C CNN
+F 1 "GND" H 3055 2327 50  0000 C CNN
+F 2 "" H 3050 2500 50  0001 C CNN
+F 3 "" H 3050 2500 50  0001 C CNN
+	1    3050 2500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
