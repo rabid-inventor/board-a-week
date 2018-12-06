@@ -37,17 +37,6 @@ F 3 " ~" H 1350 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Crystal Y1
-U 1 1 5BBCD0D5
-P 1300 6800
-F 0 "Y1" H 1300 7068 50  0000 C CNN
-F 1 "Crystal 8Mhz" H 1300 6977 50  0000 C CNN
-F 2 "Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm" H 1300 6800 50  0001 C CNN
-F 3 "~" H 1300 6800 50  0001 C CNN
-	1    1300 6800
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0101
 U 1 1 5BBCD1D2
 P 9400 2150
@@ -12545,11 +12534,17 @@ Wire Wire Line
 Wire Wire Line
 	6200 7400 5800 7400
 Wire Wire Line
+	4450 7450 4050 7450
+Wire Wire Line
+	4450 7550 4050 7550
+Wire Wire Line
 	4450 5750 4050 5750
 Wire Wire Line
 	4450 5850 4050 5850
 Wire Wire Line
 	4450 5950 4050 5950
+Wire Wire Line
+	4450 6050 4050 6050
 Wire Wire Line
 	4450 6150 4050 6150
 Wire Wire Line
@@ -12574,14 +12569,6 @@ Wire Wire Line
 	4450 7150 4050 7150
 Wire Wire Line
 	4450 7250 4050 7250
-Wire Wire Line
-	4450 7350 4050 7350
-Wire Wire Line
-	4450 7450 4050 7450
-Wire Wire Line
-	4450 7550 4050 7550
-Wire Wire Line
-	4450 7650 4050 7650
 Wire Wire Line
 	5800 7500 6200 7500
 Wire Wire Line
@@ -12643,37 +12630,37 @@ Text Label 3650 4600 0    50   ~ 0
 _RESET
 Text Label 3650 4900 0    50   ~ 0
 BOOT0
-Text Label 4050 6150 0    50   ~ 0
+Text Label 5800 6900 0    50   ~ 0
 PB0
-Text Label 4050 6250 0    50   ~ 0
+Text Label 5800 7000 0    50   ~ 0
 PB1
-Text Label 4050 6350 0    50   ~ 0
+Text Label 5800 7100 0    50   ~ 0
 PB2
-Text Label 4050 6450 0    50   ~ 0
-PB3
-Text Label 4050 6550 0    50   ~ 0
-PB4
 Text Label 4050 6650 0    50   ~ 0
-PB5
+PB3
 Text Label 4050 6750 0    50   ~ 0
-PB6
+PB4
 Text Label 4050 6850 0    50   ~ 0
-PB7
+PB5
 Text Label 4050 6950 0    50   ~ 0
-PB8
+PB6
 Text Label 4050 7050 0    50   ~ 0
-PB9
+PB7
 Text Label 4050 7150 0    50   ~ 0
-PB10
+PB8
 Text Label 4050 7250 0    50   ~ 0
+PB9
+Text Label 5800 7200 0    50   ~ 0
+PB10
+Text Label 5800 7300 0    50   ~ 0
 PB11
-Text Label 4050 7350 0    50   ~ 0
+Text Label 5800 7400 0    50   ~ 0
 PB12
-Text Label 4050 7450 0    50   ~ 0
+Text Label 5800 7500 0    50   ~ 0
 PB13
-Text Label 4050 7550 0    50   ~ 0
+Text Label 5800 7600 0    50   ~ 0
 PB14
-Text Label 4050 7650 0    50   ~ 0
+Text Label 4050 5750 0    50   ~ 0
 PB15
 Text Label 5800 6200 0    50   ~ 0
 PA1
@@ -12691,11 +12678,11 @@ Text Label 5800 6700 0    50   ~ 0
 PA6
 Text Label 5800 6800 0    50   ~ 0
 PA7
-Text Label 5800 6900 0    50   ~ 0
+Text Label 4050 5850 0    50   ~ 0
 PA8
-Text Label 5800 7000 0    50   ~ 0
+Text Label 4050 5950 0    50   ~ 0
 PA9
-Text Label 5800 7100 0    50   ~ 0
+Text Label 4050 6050 0    50   ~ 0
 PA10
 Wire Wire Line
 	5800 7100 6200 7100
@@ -12720,7 +12707,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 6100 6200 6100
 Wire Wire Line
-	4050 5750 4050 5600
+	3850 7350 3850 7200
 Wire Wire Line
 	5800 5700 5800 5550
 $Comp
@@ -12737,27 +12724,27 @@ $EndComp
 $Comp
 L power:+BATT #PWR013
 U 1 1 5C0046D8
-P 4050 5600
-F 0 "#PWR013" H 4050 5450 50  0001 C CNN
-F 1 "+BATT" H 4065 5773 50  0000 C CNN
-F 2 "" H 4050 5600 50  0001 C CNN
-F 3 "" H 4050 5600 50  0001 C CNN
-	1    4050 5600
+P 3850 7200
+F 0 "#PWR013" H 3850 7050 50  0001 C CNN
+F 1 "+BATT" H 3865 7373 50  0000 C CNN
+F 2 "" H 3850 7200 50  0001 C CNN
+F 3 "" H 3850 7200 50  0001 C CNN
+	1    3850 7200
 	1    0    0    -1  
 $EndComp
-Text Label 4050 5850 0    50   ~ 0
+Text Label 4050 7450 0    50   ~ 0
 _RESET
-Text Label 4050 5950 0    50   ~ 0
+Text Label 4050 7550 0    50   ~ 0
 BOOT0
-Text Label 5800 7200 0    50   ~ 0
+Text Label 4050 6150 0    50   ~ 0
 USB_D-
-Text Label 5800 7300 0    50   ~ 0
+Text Label 4050 6250 0    50   ~ 0
 USB_D+
-Text Label 5800 7400 0    50   ~ 0
+Text Label 4050 6350 0    50   ~ 0
 SWDIO
-Text Label 5800 7500 0    50   ~ 0
+Text Label 4050 6450 0    50   ~ 0
 SWCLK
-Text Label 5800 7600 0    50   ~ 0
+Text Label 4050 6550 0    50   ~ 0
 PA15
 Text Label 5150 2800 0    50   ~ 0
 RTC_OSC_IN
@@ -12778,18 +12765,18 @@ PC13
 Text Label 5800 5800 0    50   ~ 0
 PC13
 Wire Wire Line
-	3700 6050 3700 5800
+	3700 7650 3700 7400
 Wire Wire Line
-	3700 6050 4450 6050
+	3700 7650 4450 7650
 $Comp
 L power:VBUS #PWR012
 U 1 1 5C03831E
-P 3700 5800
-F 0 "#PWR012" H 3700 5650 50  0001 C CNN
-F 1 "VBUS" H 3715 5973 50  0000 C CNN
-F 2 "" H 3700 5800 50  0001 C CNN
-F 3 "" H 3700 5800 50  0001 C CNN
-	1    3700 5800
+P 3700 7400
+F 0 "#PWR012" H 3700 7250 50  0001 C CNN
+F 1 "VBUS" H 3715 7573 50  0000 C CNN
+F 2 "" H 3700 7400 50  0001 C CNN
+F 3 "" H 3700 7400 50  0001 C CNN
+	1    3700 7400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -12821,5 +12808,40 @@ F 2 "" H 3050 2500 50  0001 C CNN
 F 3 "" H 3050 2500 50  0001 C CNN
 	1    3050 2500
 	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 7350 4450 7350
+$Comp
+L Device:Crystal_GND24 Y1
+U 1 1 5C0DB3F5
+P 1300 6800
+F 0 "Y1" H 1491 6846 50  0000 L CNN
+F 1 "Crystal_GND24" H 1491 6755 50  0000 L CNN
+F 2 "" H 1300 6800 50  0001 C CNN
+F 3 "~" H 1300 6800 50  0001 C CNN
+	1    1300 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5C0DB51C
+P 1300 7000
+F 0 "#PWR0107" H 1300 6750 50  0001 C CNN
+F 1 "GND" H 1305 6827 50  0000 C CNN
+F 2 "" H 1300 7000 50  0001 C CNN
+F 3 "" H 1300 7000 50  0001 C CNN
+	1    1300 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5C0DB567
+P 1300 6600
+F 0 "#PWR0108" H 1300 6350 50  0001 C CNN
+F 1 "GND" H 1305 6427 50  0000 C CNN
+F 2 "" H 1300 6600 50  0001 C CNN
+F 3 "" H 1300 6600 50  0001 C CNN
+	1    1300 6600
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
