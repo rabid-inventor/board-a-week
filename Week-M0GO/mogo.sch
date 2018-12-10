@@ -11847,12 +11847,6 @@ Wire Wire Line
 Wire Wire Line
 	5650 4200 5250 4200
 Wire Wire Line
-	5650 4300 5250 4300
-Wire Wire Line
-	5650 4400 5250 4400
-Wire Wire Line
-	5650 4500 5250 4500
-Wire Wire Line
 	5650 4600 5250 4600
 Text Label 5250 3100 0    50   ~ 0
 PB0
@@ -12844,4 +12838,14 @@ F 3 "" H 1300 6600 50  0001 C CNN
 	1    1300 6600
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	4800 4400 5650 4400
+Text Label 4800 4400 2    50   ~ 0
+SDA_3V3
+Text Label 4800 4500 2    50   ~ 0
+SCL_3V3
+Wire Wire Line
+	4800 4500 5650 4500
+Wire Wire Line
+	5250 4300 5650 4300
 $EndSCHEMATC
