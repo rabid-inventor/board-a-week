@@ -1,0 +1,397 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BAWKiCADLib:TS3DV421 U?
+U 1 1 5C2E9C23
+P 3300 2150
+F 0 "U?" H 3200 3628 50  0000 C CNN
+F 1 "TS3DV421" H 3200 3537 50  0000 C CNN
+F 2 "" H 3300 2150 50  0001 C CNN
+F 3 "" H 3300 2150 50  0001 C CNN
+	1    3300 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:HDMI_A J?
+U 1 1 5C2E9DE6
+P 1750 5550
+F 0 "J?" H 2180 5596 50  0000 L CNN
+F 1 "HDMI_A" H 2180 5505 50  0000 L CNN
+F 2 "" H 1775 5550 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 1775 5550 50  0001 C CNN
+	1    1750 5550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 4450 1750 4000
+Wire Wire Line
+	2150 4750 2500 4750
+Wire Wire Line
+	2150 4850 2500 4850
+Wire Wire Line
+	2150 4950 2500 4950
+Wire Wire Line
+	2150 5050 2500 5050
+Wire Wire Line
+	2150 5150 2500 5150
+Wire Wire Line
+	2150 5250 2500 5250
+Wire Wire Line
+	2150 5350 2500 5350
+Wire Wire Line
+	2150 5450 2500 5450
+Wire Wire Line
+	1450 6650 1450 6950
+Wire Wire Line
+	1450 6950 1550 6950
+Wire Wire Line
+	1950 6950 1950 6650
+Wire Wire Line
+	1550 6650 1550 6950
+Connection ~ 1550 6950
+Wire Wire Line
+	1550 6950 1650 6950
+Wire Wire Line
+	1650 6650 1650 6950
+Connection ~ 1650 6950
+Wire Wire Line
+	1650 6950 1700 6950
+Wire Wire Line
+	1750 6650 1750 6950
+Connection ~ 1750 6950
+Wire Wire Line
+	1750 6950 1850 6950
+Wire Wire Line
+	1850 6650 1850 6950
+Connection ~ 1850 6950
+Wire Wire Line
+	1850 6950 1950 6950
+Wire Wire Line
+	1700 6950 1700 7300
+Connection ~ 1700 6950
+Wire Wire Line
+	1700 6950 1750 6950
+Wire Wire Line
+	2150 5650 2500 5650
+Wire Wire Line
+	2150 5850 2500 5850
+Wire Wire Line
+	2150 5950 2500 5950
+Wire Wire Line
+	2150 6150 2500 6150
+Wire Wire Line
+	2150 6250 2500 6250
+$Comp
+L power:+5V #PWR?
+U 1 1 5C2EDD6B
+P 1750 4000
+F 0 "#PWR?" H 1750 3850 50  0001 C CNN
+F 1 "+5V" H 1765 4173 50  0000 C CNN
+F 2 "" H 1750 4000 50  0001 C CNN
+F 3 "" H 1750 4000 50  0001 C CNN
+	1    1750 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C2EDDA4
+P 1700 7300
+F 0 "#PWR?" H 1700 7050 50  0001 C CNN
+F 1 "GND" H 1705 7127 50  0000 C CNN
+F 2 "" H 1700 7300 50  0001 C CNN
+F 3 "" H 1700 7300 50  0001 C CNN
+	1    1700 7300
+	1    0    0    -1  
+$EndComp
+Text Label 2500 4750 0    50   ~ 0
+OUTD2+
+Text Label 2500 4850 0    50   ~ 0
+OUTD2-
+Text Label 2500 4950 0    50   ~ 0
+OUTD1+
+Text Label 2500 5050 0    50   ~ 0
+OUTD1-
+Text Label 2500 5150 0    50   ~ 0
+OUTD0+
+Text Label 2500 5250 0    50   ~ 0
+OUTD0-
+Text Label 2500 5350 0    50   ~ 0
+OUTCLK+
+Text Label 2500 5450 0    50   ~ 0
+OUTCLK-
+Text Label 2500 5650 0    50   ~ 0
+OUTCEC
+Text Label 2500 5850 0    50   ~ 0
+OUTSDA
+Text Label 2500 5950 0    50   ~ 0
+OUTSCL
+Text Label 2500 6150 0    50   ~ 0
+OUTUTIL
+Text Label 2500 6250 0    50   ~ 0
+OUTHBD
+$Comp
+L Connector:HDMI_A J?
+U 1 1 5C2EE552
+P 10200 3300
+F 0 "J?" H 10630 3346 50  0000 L CNN
+F 1 "HDMI_A" H 10630 3255 50  0000 L CNN
+F 2 "" H 10225 3300 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 10225 3300 50  0001 C CNN
+	1    10200 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 2200 10200 1750
+Wire Wire Line
+	9800 2500 9450 2500
+Wire Wire Line
+	9800 2600 9450 2600
+Wire Wire Line
+	9800 2700 9450 2700
+Wire Wire Line
+	9800 2800 9450 2800
+Wire Wire Line
+	9800 2900 9450 2900
+Wire Wire Line
+	9800 3000 9450 3000
+Wire Wire Line
+	9800 3100 9450 3100
+Wire Wire Line
+	9800 3200 9450 3200
+Wire Wire Line
+	10500 4400 10500 4700
+Wire Wire Line
+	10500 4700 10400 4700
+Wire Wire Line
+	10000 4700 10000 4400
+Wire Wire Line
+	10400 4400 10400 4700
+Connection ~ 10400 4700
+Wire Wire Line
+	10400 4700 10300 4700
+Wire Wire Line
+	10300 4400 10300 4700
+Connection ~ 10300 4700
+Wire Wire Line
+	10300 4700 10250 4700
+Wire Wire Line
+	10200 4400 10200 4700
+Connection ~ 10200 4700
+Wire Wire Line
+	10200 4700 10100 4700
+Wire Wire Line
+	10100 4400 10100 4700
+Connection ~ 10100 4700
+Wire Wire Line
+	10100 4700 10000 4700
+Wire Wire Line
+	10250 4700 10250 5050
+Connection ~ 10250 4700
+Wire Wire Line
+	10250 4700 10200 4700
+Wire Wire Line
+	9800 3400 9450 3400
+Wire Wire Line
+	9800 3600 9450 3600
+Wire Wire Line
+	9800 3700 9450 3700
+Wire Wire Line
+	9800 3900 9450 3900
+Wire Wire Line
+	9800 4000 9450 4000
+$Comp
+L power:+5V #PWR?
+U 1 1 5C2EE579
+P 10200 1750
+F 0 "#PWR?" H 10200 1600 50  0001 C CNN
+F 1 "+5V" H 10215 1923 50  0000 C CNN
+F 2 "" H 10200 1750 50  0001 C CNN
+F 3 "" H 10200 1750 50  0001 C CNN
+	1    10200 1750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C2EE57F
+P 10250 5050
+F 0 "#PWR?" H 10250 4800 50  0001 C CNN
+F 1 "GND" H 10255 4877 50  0000 C CNN
+F 2 "" H 10250 5050 50  0001 C CNN
+F 3 "" H 10250 5050 50  0001 C CNN
+	1    10250 5050
+	-1   0    0    -1  
+$EndComp
+Text Label 9450 2500 2    50   ~ 0
+OUTD2+
+Text Label 9450 2600 2    50   ~ 0
+OUTD2-
+Text Label 9450 2700 2    50   ~ 0
+OUTD1+
+Text Label 9450 2800 2    50   ~ 0
+OUTD1-
+Text Label 9450 2900 2    50   ~ 0
+OUTD0+
+Text Label 9450 3000 2    50   ~ 0
+OUTD0-
+Text Label 9450 3100 2    50   ~ 0
+OUTCLK+
+Text Label 9450 3200 2    50   ~ 0
+OUTCLK-
+Text Label 9450 3400 2    50   ~ 0
+OUTCEC
+Text Label 9450 3600 2    50   ~ 0
+OUTSDA
+Text Label 9450 3700 2    50   ~ 0
+OUTSCL
+Text Label 9450 3900 2    50   ~ 0
+OUTUTIL
+Text Label 9450 4000 2    50   ~ 0
+OUTHBD
+$Comp
+L Connector:HDMI_A J?
+U 1 1 5C2EFBF4
+P 8150 3300
+F 0 "J?" H 8580 3346 50  0000 L CNN
+F 1 "HDMI_A" H 8580 3255 50  0000 L CNN
+F 2 "" H 8175 3300 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 8175 3300 50  0001 C CNN
+	1    8150 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 2200 8150 1750
+Wire Wire Line
+	7750 2500 7400 2500
+Wire Wire Line
+	7750 2600 7400 2600
+Wire Wire Line
+	7750 2700 7400 2700
+Wire Wire Line
+	7750 2800 7400 2800
+Wire Wire Line
+	7750 2900 7400 2900
+Wire Wire Line
+	7750 3000 7400 3000
+Wire Wire Line
+	7750 3100 7400 3100
+Wire Wire Line
+	7750 3200 7400 3200
+Wire Wire Line
+	8450 4400 8450 4700
+Wire Wire Line
+	8450 4700 8350 4700
+Wire Wire Line
+	7950 4700 7950 4400
+Wire Wire Line
+	8350 4400 8350 4700
+Connection ~ 8350 4700
+Wire Wire Line
+	8350 4700 8250 4700
+Wire Wire Line
+	8250 4400 8250 4700
+Connection ~ 8250 4700
+Wire Wire Line
+	8250 4700 8200 4700
+Wire Wire Line
+	8150 4400 8150 4700
+Connection ~ 8150 4700
+Wire Wire Line
+	8150 4700 8050 4700
+Wire Wire Line
+	8050 4400 8050 4700
+Connection ~ 8050 4700
+Wire Wire Line
+	8050 4700 7950 4700
+Wire Wire Line
+	8200 4700 8200 5050
+Connection ~ 8200 4700
+Wire Wire Line
+	8200 4700 8150 4700
+Wire Wire Line
+	7750 3400 7400 3400
+Wire Wire Line
+	7750 3600 7400 3600
+Wire Wire Line
+	7750 3700 7400 3700
+Wire Wire Line
+	7750 3900 7400 3900
+Wire Wire Line
+	7750 4000 7400 4000
+$Comp
+L power:+5V #PWR?
+U 1 1 5C2EFC1B
+P 8150 1750
+F 0 "#PWR?" H 8150 1600 50  0001 C CNN
+F 1 "+5V" H 8165 1923 50  0000 C CNN
+F 2 "" H 8150 1750 50  0001 C CNN
+F 3 "" H 8150 1750 50  0001 C CNN
+	1    8150 1750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C2EFC21
+P 8200 5050
+F 0 "#PWR?" H 8200 4800 50  0001 C CNN
+F 1 "GND" H 8205 4877 50  0000 C CNN
+F 2 "" H 8200 5050 50  0001 C CNN
+F 3 "" H 8200 5050 50  0001 C CNN
+	1    8200 5050
+	-1   0    0    -1  
+$EndComp
+Text Label 7400 2500 2    50   ~ 0
+INAD2+
+Text Label 7400 2600 2    50   ~ 0
+INAD2-
+Text Label 7400 2700 2    50   ~ 0
+INAD1+
+Text Label 7400 2800 2    50   ~ 0
+INAD1-
+Text Label 7400 2900 2    50   ~ 0
+INAD0+
+Text Label 7400 3000 2    50   ~ 0
+INAD0-
+Text Label 7400 3100 2    50   ~ 0
+INACLK+
+Text Label 7400 3200 2    50   ~ 0
+INACLK-
+Text Label 7400 3400 2    50   ~ 0
+OUTCEC
+Text Label 7400 3600 2    50   ~ 0
+OUTSDA
+Text Label 7400 3700 2    50   ~ 0
+OUTSCL
+Text Label 7400 3900 2    50   ~ 0
+OUTUTIL
+Text Label 7400 4000 2    50   ~ 0
+OUTHBD
+Text Label 4400 1300 2    50   ~ 0
+INAD2+
+Text Label 4400 1400 2    50   ~ 0
+INAD2-
+Text Label 4400 1500 2    50   ~ 0
+INAD1+
+Text Label 4400 1600 2    50   ~ 0
+INAD1-
+Text Label 4400 1700 2    50   ~ 0
+INAD0+
+Text Label 4400 1800 2    50   ~ 0
+INAD0-
+Text Label 4400 1900 2    50   ~ 0
+INACLK+
+Text Label 4400 2000 2    50   ~ 0
+INACLK-
+$EndSCHEMATC
