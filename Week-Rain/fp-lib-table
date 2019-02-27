@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Week-Rain)(type KiCad)(uri "C:/Users/Gee Bartlett/Documents/GitHub/board-a-week/Week-Rain")(options "")(descr ""))
+  (lib (name ArtAndSilks)(type KiCad)(uri ${KIPRJMOD}/ArtAndSilks)(options "")(descr ""))
 )
