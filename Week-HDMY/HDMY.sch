@@ -31,7 +31,7 @@ U 1 1 5C2E9DE6
 P 1750 5550
 F 0 "J1" H 2180 5596 50  0000 L CNN
 F 1 "HDMI_A" H 2180 5505 50  0000 L CNN
-F 2 "Connector_HDMI:HDMI_A_Contact_Technology_HDMI-19APL2_Horizontal" H 1775 5550 50  0001 C CNN
+F 2 "digikey-footprints:HDMI_A_Female_2000-1-2-41-00-BK" H 1775 5550 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/HDMI" H 1775 5550 50  0001 C CNN
 	1    1750 5550
 	-1   0    0    -1  
@@ -149,7 +149,7 @@ U 1 1 5C2EE552
 P 10200 3300
 F 0 "J3" H 10630 3346 50  0000 L CNN
 F 1 "HDMI_A" H 10630 3255 50  0000 L CNN
-F 2 "Connector_HDMI:HDMI_A_Contact_Technology_HDMI-19APL2_Horizontal" H 10225 3300 50  0001 C CNN
+F 2 "digikey-footprints:HDMI_A_Female_2000-1-2-41-00-BK" H 10225 3300 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/HDMI" H 10225 3300 50  0001 C CNN
 	1    10200 3300
 	1    0    0    -1  
@@ -241,7 +241,7 @@ U 1 1 5C2EFBF4
 P 8150 3300
 F 0 "J2" H 8580 3346 50  0000 L CNN
 F 1 "HDMI_A" H 8580 3255 50  0000 L CNN
-F 2 "Connector_HDMI:HDMI_A_Contact_Technology_HDMI-19APL2_Horizontal" H 8175 3300 50  0001 C CNN
+F 2 "digikey-footprints:HDMI_A_Female_2000-1-2-41-00-BK" H 8175 3300 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/HDMI" H 8175 3300 50  0001 C CNN
 	1    8150 3300
 	1    0    0    -1  
